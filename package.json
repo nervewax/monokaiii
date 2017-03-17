@@ -1,7 +1,7 @@
 {
   "name": "monokaiii",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "A monokaiii theme",
   "repository": "https://github.com/nervewax/monokaiii",

@@ -1,10 +1,10 @@
 {
   "name": "monokaiii",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "A monokaiii theme",
-  "repository": "https://github.com/nervewax/monokai",
+  "repository": "https://github.com/nervewax/monokaiii",
   "license": "MIT",
   "engines": {
     "atom": ">1.13.0"

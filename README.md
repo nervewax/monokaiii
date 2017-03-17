@@ -1,2 +1,0 @@
-# Monokaiii theme
-🌈🌈🌈

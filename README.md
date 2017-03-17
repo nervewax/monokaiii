@@ -4,4 +4,4 @@
 🌈🌈🌈
 
 
-![Screenshot](/../screenshots/screenshots/screenshot.png?raw=true "Screenshot")
+![Screenshot](https://raw.githubusercontent.com/nervewax/monokaiii/screenshots/screenshots/screenshot.png "Screenshot")

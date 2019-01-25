@@ -1,9 +1,9 @@
 {
   "name": "monokaiii",
   "theme": "syntax",
-  "version": "0.5.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "A monokaiii theme",
+  "description": "Monokai, but cooler & with 2 bonus i's.",
   "repository": "https://github.com/nervewax/monokaiii",
   "license": "MIT",
   "engines": {

@@ -1,16 +1,26 @@
-@ghost-white: 		#FBF9E7;
-@light-ghost-white: lighten(@ghost-white, 1%);
-@light-gray: 		#ededed;
-@gray: 				#A0A79B;
-@dark-gray: 		#1d1d21;
-@brown-gray: 		lighten(@dark-gray, 13%);
+// Config -----------------------------------
+@syntax-hue:          254;
+@syntax-saturation:   8%;
+@syntax-brightness:   12%;
 
-@yellow: 		#FDD758;
-@blue: 			#35FDD9;
-@pink: 			#E42B6F;
-@purple: 		#F387E5;
-@brown: 		#666B5C;
-@orange: 		#FA5F52;
-@light-orange: 	lighten(@orange, 8%);
-@green: 		#36D86C;
-@sea-green: 	darken(@green, 20%);
+// Monochrome -----------------------------------
+@mono-1: hsl(@syntax-hue, 71%, 95%); // default text
+@mono-2: hsl(@syntax-hue,  9%, 55%);
+@mono-3: hsl(@syntax-hue, 10%, 40%);
+
+// Colors -----------------------------------
+@hue-1:   rgb( 53, 253, 217);
+@hue-2:   rgb( 97, 175, 239);
+@hue-3:   rgb(250,  95,  82);
+@hue-4:   rgb(253, 180,  100);
+@hue-5:   rgb(248,  73, 111);
+@hue-5-2: lighten(@hue-5, 8%);
+@hue-6:   rgb( 70, 250, 120);
+@hue-6-2: lighten(@hue-6, 15%);
+
+// Base colors -----------------------------------
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-gutter: darken(@syntax-fg, 5%);
+@syntax-guide:  fade(@syntax-fg, 15%);
+@syntax-accent: @hue-3;
